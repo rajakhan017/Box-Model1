@@ -13,21 +13,21 @@ body> Section
 • Inside the "main" container, there is a <div> with a class of "content" that contains various boxes.
 • This div uses flex properties to arrange its children in a column layout.
 ![image](https://github.com/rajakhan017/Box-Model1/assets/135150598/a2aa847b-7a6c-4e70-8aa0-f06d139e22a4)
-## CSS Styling (style.css)
+## CSS Styling
 Global Styles
 • The universal selector * is used to reset margins and paddings to zero and set the box-sizing to "border-box."
 • The body element takes up the full viewport width and height (100vw and 100vh).
-### Main Container (.main)
+### Main Container 
 • Positioned relative to its parent with specific dimensions and a red border.
 • Utilizes flex properties to center its content both horizontally and vertically.
-### Content Container (.content)
+### Content Container 
 • Positioned within the main container, taking up most of its height.
 • Utilizes flex properties to arrange its children in a column layout with a 12px gap.
-### Box Elements (.box1, .box2)
+### Box Elements 
 • Both boxes have red borders and some padding.
-• "box1" has a heading element (<h1>) with the text "I'm a box."
-• "box2" contains a paragraph (<p>) with placeholder text.
-### List (.border padding ul)
+• box1 has a heading element (h1) with the text "I'm a box."
+• box2 contains a paragraph (p) with placeholder text.
+### List 
 • An unordered list (ul>) with red borders and padding.
 • Each list item (<li) also has red borders and padding.
 • Demonstrates that lists and list items are also affected by the box model.
